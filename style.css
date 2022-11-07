@@ -83,13 +83,7 @@ h2 {
     background-image: url(img/Healthcare.jpg);
 }
 .carousel:nth-child(6){
-    background-image: url(img/Public-Infrastructure.jpg);
-}
-.carousel:nth-child(7){
     background-image: url(img/Realestate-Development.jpg);
-}
-.carousel:nth-child(8){
-    background-image: url(img/Transportation.jpg);   
 }
 
 .btn {
