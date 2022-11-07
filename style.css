@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: absolute; 
+    color: navy; 
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 80%;
+    height: 70vh;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background-color: rgba(27, 27, 27, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 4rem;
+}
+
+.carousel:nth-child(1){
+    background-image: url(img/Education.jpg);
+}
+.carousel:nth-child(2){
+    background-image: url(img/Engineering.jpg);
+}
+.carousel:nth-child(3){
+    background-image: url(img/Entertainment.jpg);
+}
+.carousel:nth-child(4){
+    background-image: url(img/Govt.jpg);
+}
+.carousel:nth-child(5){
+    background-image: url(img/Healthcare.jpg);
+}
+.carousel:nth-child(6){
+    background-image: url(img/Public-Infrastructure.jpg);
+}
+.carousel:nth-child(7){
+    background-image: url(img/Realestate-Development.jpg);
+}
+.carousel:nth-child(8){
+    background-image: url(img/Transportation.jpg);   
+}
+
+.btn {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.next {
+    border-width: 1.5rem 0 1.5rem 2rem;
+    border-color: transparent transparent transparent #fff;
+    float: right;
+}
+
+.prev {
+    border-width: 1.5rem 2rem 1.5rem 0;
+    border-color: transparent #fff transparent transparent;
+    float: left;
+}
+
+.left {
+    left: 1rem;
+}
+
+.right {
+    right: 1rem;
+}
+
+.highlighter {
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    margin-top: -1.75rem;
+    border-radius: 50%;
+    height: 3.75rem;
+    width: 3.75rem;
+    padding: 0.5rem;
+}
+
+.unsee {
+    display: none;
+}
+
+.unbg {
+    background-color: rgba(0,0,0,0);
+}
+
+.card:hover {
+    box-shadow: 0 0.3rem 0.5rem rgb(27,27,27);
+}
+
+
+
+
