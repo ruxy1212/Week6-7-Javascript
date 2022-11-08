@@ -1,5 +1,7 @@
 # Javascript Task
 
+# [See The Live Page Here](https://ruxy1212.github.io/Week6-7-Javascript/)
+
 ## Slideshow/Carousel
 
 ### Introduction to Javascript Week 6 and 7 Task
