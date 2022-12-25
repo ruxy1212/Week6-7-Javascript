@@ -136,6 +136,10 @@ h2 {
     box-shadow: 0 0.3rem 0.5rem rgb(27,27,27);
 }
 
-
+@media only screen and (max-width: 600px) {
+    .overlay {
+        font-size: 3rem;
+    }
+}
 
 
